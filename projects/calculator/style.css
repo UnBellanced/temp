@@ -1,0 +1,60 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#calculator{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding:20px;
+    background-color: #C7B7A3;
+    border:3px solid black;
+    border-radius: 20px;
+    margin:100px;
+}
+
+#display{
+    background-color: #E8D8C4;
+    border:2px solid black;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 12px;
+    width:208px;
+    height:51px;
+}
+
+.calcRow{
+    display:flex;
+    gap:5px;
+    justify-content: space-between;
+}
+
+#equBtn,
+#clearBtn,
+.calcBtn{
+    font-size: 30px;
+    border:2px solid black;
+}
+
+.calcBtn{
+    background-color: #A94438;
+    color:lightpink;
+    width:33px;
+    height:40px;
+}
+
+#mult,
+#add,
+#divide,
+#sub{
+    background-color: #6D2932;
+    color:lightpink;
+}
+
+#clearBtn,
+#equBtn{
+    color: azure;
+    background-color: #561C24;
+}
